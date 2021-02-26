@@ -1,0 +1,274 @@
+@media (max-width: 1539px) {
+  .main {
+    &__sidebar {
+      flex-basis: 23%;
+    }
+    &__info {
+      img {
+        margin-top: 0;
+      }
+    }
+    &-wrap {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  .header {
+    &-container {
+      max-width: 1200px;
+    }
+    &__bottom {
+      &-blocks {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      &-block {
+        flex-basis: 20%;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .header-container {
+    padding: 15px;
+  }
+  .container {
+    max-width: 1200px;
+    padding: 15px;
+  }
+}
+@media (max-width: 1199px) {
+  .header {
+    &-container {
+      max-width: 960px;
+      nav {
+        ul {
+          text-align: center;
+          flex-wrap: wrap;
+          justify-content: center;
+          li {
+            flex-basis: 20%;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    max-width: 960px;
+  }
+  .main {
+    &__sidebar {
+      flex-basis: 50%;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+  }
+  .news {
+    &-wrap {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__leftside {
+      margin-bottom: 30px;
+      flex-basis: 100%;
+      text-align: center;
+      p {
+        margin: 0 auto;
+      }
+      h3 {
+        margin: 0 auto;
+      }
+      &-date {
+        margin: 0 auto;
+      }
+    }
+    &__rigthside {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  }
+  .recommend {
+    &__rigthside {
+      &-heading {
+        img {
+          margin-right: 30px;
+        }
+      }
+    }
+    &-wrap {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 750px;
+  }
+  .header {
+    &-container {
+      max-width: 750px;
+    }
+    &__main {
+      &-wrap {
+        flex-wrap: wrap;
+      }
+      &-info,
+      &-cart {
+        margin-top: 30px;
+      }
+    }
+  }
+  .sponsors {
+    &__blocks {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &-block {
+      flex-basis: 30%;
+    }
+  }
+  .footer {
+    text-align: center;
+    &__lists {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__list {
+      flex-basis: 50%;
+      margin-bottom: 15px;
+    }
+  }
+  .suggest {
+    flex-wrap: wrap;
+    justify-content: center;
+    &__leftside {
+      flex-basis: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    &__rigthside {
+      flex-basis: 100%;
+      text-align: center;
+      margin-left: 0;
+    }
+  }
+  .main {
+    &__slider {
+      max-width: 100%;
+      &-block {
+        background-position: 450px 70px;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 600px;
+  }
+  .header {
+    display: none;
+    &-container {
+      max-width: 600px;
+    }
+  }
+  .main {
+    &__sidebar {
+      display: none;
+    }
+    &__slider {
+      max-width: 570px;
+      &-block {
+        background-position: 310px 70px;
+      }
+    }
+  }
+  .mobile-header {
+    border-bottom: 1px solid #000;
+    display: block;
+    &-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-icons {
+      min-width: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-logo {
+      display: flex;
+      div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 15px;
+        small {
+          font-size: 12px;
+        }
+      }
+    }
+    &-btn {
+      background-color: #fda11c;
+      border-radius: 100%;
+      width: 75px;
+      height: 75px;
+      background-image: url("../img/mobile-header-menu.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      cursor: pointer;
+    }
+  }
+  .sponsors {
+    &__blocks {
+      text-align: center;
+    }
+  }
+  .mobile-equipment {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .recommend {
+    &__rigthside {
+      &-heading {
+        img {
+          margin-right: 30px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    max-width: 100%;
+    padding: 15px;
+  }
+  .news {
+    &__rightside {
+      &-block {
+        flex-wrap: wrap;
+        img {
+          margin-left: 0;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  .sponsors {
+    &-block {
+      flex-basis: 50%;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+  .footer {
+    &__list {
+      flex-basis: 100%;
+
+      text-align: center;
+    }
+  }
+}
